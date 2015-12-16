@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{99801cfc-9a42-45ed-8deb-e4d0798e82e7}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{1bbfbcca-e6ea-45df-a873-9af67eb42ef7}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\Detector_src">
+      <UniqueIdentifier>{8218ceee-c8a5-413f-b47f-18d1a8cd7f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Header Files\Detector_H">
+      <UniqueIdentifier>{0d5d2131-82c3-49cc-9dcc-635bca8274b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Header Files\Capture_H">
+      <UniqueIdentifier>{1a007587-2395-4b2c-bd6d-82ee19ed3a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Header Files\Train_H">
+      <UniqueIdentifier>{f8f8418c-94ce-4dff-9aa7-078a5b40a3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Header Files\Recogn_H">
+      <UniqueIdentifier>{9c70657a-eb36-4ce9-bf4d-4da34b754ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Header Files\GUI_H">
+      <UniqueIdentifier>{b6582fd2-a4b7-4ab0-9328-861a4c7e23f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Header Files\CaseBased_H">
+      <UniqueIdentifier>{830eeca1-8e0e-4301-b7a8-3953dcd972e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Capture_src">
+      <UniqueIdentifier>{605fbf1f-f946-494f-8df0-d9d65ec83ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI_src">
+      <UniqueIdentifier>{b75e6401-df6c-4f4d-9d21-63f86078d94a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Recogn_src">
+      <UniqueIdentifier>{041abafc-c57b-4dc7-9e04-9bbc2a362b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CaseBased_src">
+      <UniqueIdentifier>{5fe076fa-8790-4520-8ab9-35b6ad7959ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Train_src">
+      <UniqueIdentifier>{b557594d-f815-4e6a-ae3d-57f3f9b551d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_gender_classification.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detailedfacedetector.cpp">
+      <Filter>Source Files\Detector_src</Filter>
+    </ClCompile>
+    <ClCompile Include="detector.cpp">
+      <Filter>Source Files\Detector_src</Filter>
+    </ClCompile>
+    <ClCompile Include="facedetector.cpp">
+      <Filter>Source Files\Detector_src</Filter>
+    </ClCompile>
+    <ClCompile Include="framecapture.cpp">
+      <Filter>Source Files\Capture_src</Filter>
+    </ClCompile>
+    <ClCompile Include="trainerimage.cpp">
+      <Filter>Source Files\Train_src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_webcamwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_webcamwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\webcamwidget.cpp">
+      <Filter>Source Files\GUI_src</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\genderclassification.cpp">
+      <Filter>Source Files\GUI_src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_genderclassification.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_genderclassification.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="fisherfacesclassifer.cpp">
+      <Filter>Source Files\Recogn_src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Virtual_Face.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Virtual_Face.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\Virtual_Face.cpp">
+      <Filter>Source Files\GUI_src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="gender_classification.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\webcamwidget.h">
+      <Filter>Resource Files\Header Files\GUI_H</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\genderclassification.h">
+      <Filter>Resource Files\Header Files\GUI_H</Filter>
+    </CustomBuild>
+    <CustomBuild Include="genderclassification.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Virtual_Face.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\Virtual_Face.h">
+      <Filter>Resource Files\Header Files\GUI_H</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="detailedfacedetector.h">
+      <Filter>Resource Files\Header Files\Detector_H</Filter>
+    </ClInclude>
+    <ClInclude Include="detector.h">
+      <Filter>Resource Files\Header Files\Detector_H</Filter>
+    </ClInclude>
+    <ClInclude Include="facedetector.h">
+      <Filter>Resource Files\Header Files\Detector_H</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>Resource Files\Header Files\Capture_H</Filter>
+    </ClInclude>
+    <ClInclude Include="framecapture.h">
+      <Filter>Resource Files\Header Files\Capture_H</Filter>
+    </ClInclude>
+    <ClInclude Include="framereceiver.h">
+      <Filter>Resource Files\Header Files\Capture_H</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Resource Files\Header Files\Capture_H</Filter>
+    </ClInclude>
+    <ClInclude Include="trainerimage.h">
+      <Filter>Resource Files\Header Files\Train_H</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Resource Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_genderclassification.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="recognizer.h">
+      <Filter>Resource Files\Header Files\Recogn_H</Filter>
+    </ClInclude>
+    <ClInclude Include="fisherfaceclassifer.h">
+      <Filter>Resource Files\Header Files\Recogn_H</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Virtual_Face.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

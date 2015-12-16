@@ -1,0 +1,38 @@
+﻿Build started 01/09/2013 23.31.34.
+     1>Project "C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\Face_Gender_Classification.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Face_Gender_Classification.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.4\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.4\include\QtCore /IC:\Qt\4.8.4\include\QtGui /IC:\Qt\4.8.4\include\QtMultimedia /IC:\Qt\4.8.4\include\QtXml /IC:\Qt\4.8.4\include\QtSql /IC:\Qt\4.8.4\include\QtOpenGL /IC:\Qt\4.8.4\include\QtNetwork /IC:\Qt\4.8.4\include\QtScript /IC:\Qt\4.8.4\include\Qt3Support /IC:\Qt\4.8.4\include\ActiveQt /IC:\Qt\4.8.4\include\QtSvg /IC:\Qt\4.8.4\include\QtHelp /IC:\Qt\4.8.4\include\QtWebKit /IC:\Qt\4.8.4\include\QtXmlPatterns /IC:\Qt\4.8.4\include\QtTest /IC:\Qt\4.8.4\include\QtDeclarative /IC:\Qt\4.8.4\include\phonon /IC:\Qt\4.8.4\include\QtScriptTools /IC:\Qt\4.8.4\include\QtUiTools /I"C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\\include\\" /I"C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\\include\OpenCV\\" /I"C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\\include\Qt" /I"C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\\include\Boost\\" /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_XML_LIB /D QT_SQL_LIB /D QT_OPENGL_LIB /D QT_NETWORK_LIB /D QT_SCRIPT_LIB /D QT_QT3SUPPORT_LIB /D QT3_SUPPORT /D QAXSERVER /D QT_SVG_LIB /D QT_WEBKIT_LIB /D QT_XMLPATTERNS_LIB /D QT_DECLARATIVE_LIB /D QT_PHONON_LIB /D QT_SCRIPTTOOLS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt gui\genderclassification.cpp
+         genderclassification.cpp
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\Win32\Release\\Face_Gender_Classification.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.4\lib /LIBPATH:"C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\\lib\tbb" /LIBPATH:"C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\\lib\Qt" /LIBPATH:"C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\\lib\openGL" /LIBPATH:"C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\\lib\\" /LIBPATH:"C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\\lib\OpenCV" /LIBPATH:"C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\\lib\Boost" qgif4.lib tbb.lib opencv_calib3d245.lib opencv_objdetect245.lib opencv_flann245.lib opencv_contrib245.lib msvcrt.lib qgif4.lib phonon_ds94.lib opencv_core245.lib opencv_imgproc245.lib opencv_highgui245.lib opencv_ml245.lib opencv_video245.lib opencv_legacy245.lib opencv_features2d245.lib opencv_photo245.lib opencv_haartraining_engine.lib "boost_filesystem-vc100-mt-1_47.lib" glut32.lib OpenGL32.lib GLu32.lib glew32.lib qtmain.lib QtCore4.lib QtGui4.lib QtMultimedia4.lib QtXml4.lib QtSql4.lib QtOpenGL4.lib opengl32.lib glu32.lib QtNetwork4.lib QtScript4.lib Qt3Support4.lib comdlg32.lib QAxServer.lib QtSvg4.lib QtHelp4.lib QtWebKit4.lib QtXmlPatterns4.lib QtTest4.lib QtDeclarative4.lib phonon4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Delayimp.lib /DELAYLOAD:tbb.dll /MANIFEST /ManifestFile:"Release\Face_Gender_Classification.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\Win32\Release\Face_Gender_Classification.pdb" /ASSEMBLYDEBUG:DISABLE /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\Win32\Release\Face_Gender_Classification.lib" /MACHINE:X86 Release\detailedfacedetector.obj
+         Release\detector.obj
+         Release\facedetector.obj
+         Release\framecapture.obj
+         Release\qrc_gender_classification.obj
+         Release\moc_genderclassification.obj
+         Release\moc_Virtual_Face.obj
+         Release\moc_webcamwidget.obj
+         Release\genderclassification.obj
+         Release\Virtual_Face.obj
+         Release\webcamwidget.obj
+         Release\logger.obj
+         Release\main.obj
+         Release\fisherfacesclassifer.obj
+         Release\trainerimage.obj
+     1>LINK : warning LNK4199: /DELAYLOAD:tbb.dll ignored; no imports found from tbb.dll
+         Face_Gender_Classification.vcxproj -> C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\Win32\Release\Face_Gender_Classification.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\Win32\Release\\Face_Gender_Classification.exe;#1" /manifest Release\Face_Gender_Classification.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Face_Gender_Classification.unsuccessfulbuild".
+         Touching "Release\Face_Gender_Classification.lastbuildstate".
+     1>Done Building Project "C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-clean_up\Face_Gender_Classification\Face_Gender_Classification.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.07

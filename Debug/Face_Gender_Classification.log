@@ -1,0 +1,48 @@
+﻿Build started 27/08/2013 17.30.15.
+     1>Project "C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-Testing _clean_up\Face_Gender_Classification\Face_Gender_Classification.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Face_Gender_Classification.unsuccessfulbuild".
+       CustomBuild:
+         Uic'ing genderclassification.ui...
+         Moc'ing Virtual_Face.h...
+         Moc'ing webcamwidget.h...
+         Moc'ing genderclassification.h...
+         Rcc'ing gender_classification.qrc...
+     1>RCC : warning : No resources in 'C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-Testing _clean_up\Face_Gender_Classification\gender_classification.qrc'.
+         
+         Uic'ing Virtual_Face.ui...
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.4\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.4\include\QtCore /IC:\Qt\4.8.4\include\QtGui /IC:\Qt\4.8.4\include\QtMultimedia /IC:\Qt\4.8.4\include\QtXml /IC:\Qt\4.8.4\include\QtSql /IC:\Qt\4.8.4\include\QtOpenGL /IC:\Qt\4.8.4\include\QtNetwork /IC:\Qt\4.8.4\include\QtScript /IC:\Qt\4.8.4\include\Qt3Support /IC:\Qt\4.8.4\include\ActiveQt /IC:\Qt\4.8.4\include\QtSvg /IC:\Qt\4.8.4\include\QtHelp /IC:\Qt\4.8.4\include\QtWebKit /IC:\Qt\4.8.4\include\QtXmlPatterns /IC:\Qt\4.8.4\include\QtTest /IC:\Qt\4.8.4\include\QtDeclarative /IC:\Qt\4.8.4\include\phonon /IC:\Qt\4.8.4\include\QtScriptTools /IC:\Qt\4.8.4\include\QtUiTools /I"C:\Users\nadin_000\Desktop\PhD Research\Skin Mesh Animation\Implementation\Professor_edtion\virtua\virtua\include\Qt" /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_XML_LIB /D QT_SQL_LIB /D QT_OPENGL_LIB /D QT_NETWORK_LIB /D QT_SCRIPT_LIB /D QT_QT3SUPPORT_LIB /D QT3_SUPPORT /D QAXSERVER /D QT_SVG_LIB /D QT_WEBKIT_LIB /D QT_XMLPATTERNS_LIB /D QT_DECLARATIVE_LIB /D QT_PHONON_LIB /D QT_SCRIPTTOOLS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt detailedfacedetector.cpp detector.cpp facedetector.cpp framecapture.cpp GeneratedFiles\Debug\moc_genderclassification.cpp GeneratedFiles\Debug\moc_Virtual_Face.cpp GeneratedFiles\Debug\moc_webcamwidget.cpp gui\genderclassification.cpp gui\Virtual_Face.cpp gui\webcamwidget.cpp logger.cpp main.cpp fisherfacesclassifer.cpp trainerimage.cpp
+         detailedfacedetector.cpp
+     1>C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-Testing _clean_up\Face_Gender_Classification\GeneratedFiles\../detector.h(6): fatal error C1083: Cannot open include file: 'opencv\cv.h': No such file or directory
+         detector.cpp
+     1>c:\users\nadin_000\desktop\courses\machine learning\project\implementation_gender_classification\face_gender_linear classification_final-testing _clean_up\face_gender_classification\detector.h(6): fatal error C1083: Cannot open include file: 'opencv\cv.h': No such file or directory
+         facedetector.cpp
+     1>C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-Testing _clean_up\Face_Gender_Classification\GeneratedFiles\../detector.h(6): fatal error C1083: Cannot open include file: 'opencv\cv.h': No such file or directory
+         framecapture.cpp
+     1>c:\users\nadin_000\desktop\courses\machine learning\project\implementation_gender_classification\face_gender_linear classification_final-testing _clean_up\face_gender_classification\framecapture.h(5): fatal error C1083: Cannot open include file: 'opencv\cv.h': No such file or directory
+         moc_genderclassification.cpp
+     1>c:\users\nadin_000\desktop\courses\machine learning\project\implementation_gender_classification\face_gender_linear classification_final-testing _clean_up\face_gender_classification\generatedfiles\debug\../../gui/genderclassification.h(5): fatal error C1083: Cannot open include file: 'opencv/highgui.h': No such file or directory
+         moc_Virtual_Face.cpp
+     1>c:\users\nadin_000\desktop\courses\machine learning\project\implementation_gender_classification\face_gender_linear classification_final-testing _clean_up\face_gender_classification\gui\../fisherfaceclassifer.h(6): fatal error C1083: Cannot open include file: 'opencv\cv.h': No such file or directory
+         moc_webcamwidget.cpp
+     1>c:\users\nadin_000\desktop\courses\machine learning\project\implementation_gender_classification\face_gender_linear classification_final-testing _clean_up\face_gender_classification\generatedfiles\debug\../../gui/webcamwidget.h(6): fatal error C1083: Cannot open include file: 'boost/thread/mutex.hpp': No such file or directory
+         genderclassification.cpp
+     1>c:\users\nadin_000\desktop\courses\machine learning\project\implementation_gender_classification\face_gender_linear classification_final-testing _clean_up\face_gender_classification\gui\genderclassification.h(5): fatal error C1083: Cannot open include file: 'opencv/highgui.h': No such file or directory
+         Virtual_Face.cpp
+     1>c:\users\nadin_000\desktop\courses\machine learning\project\implementation_gender_classification\face_gender_linear classification_final-testing _clean_up\face_gender_classification\gui\../fisherfaceclassifer.h(6): fatal error C1083: Cannot open include file: 'opencv\cv.h': No such file or directory
+         webcamwidget.cpp
+     1>c:\users\nadin_000\desktop\courses\machine learning\project\implementation_gender_classification\face_gender_linear classification_final-testing _clean_up\face_gender_classification\gui\webcamwidget.h(6): fatal error C1083: Cannot open include file: 'boost/thread/mutex.hpp': No such file or directory
+         logger.cpp
+         main.cpp
+     1>c:\users\nadin_000\desktop\courses\machine learning\project\implementation_gender_classification\face_gender_linear classification_final-testing _clean_up\face_gender_classification\gui/genderclassification.h(5): fatal error C1083: Cannot open include file: 'opencv/highgui.h': No such file or directory
+         fisherfacesclassifer.cpp
+     1>c:\users\nadin_000\desktop\courses\machine learning\project\implementation_gender_classification\face_gender_linear classification_final-testing _clean_up\face_gender_classification\fisherfaceclassifer.h(6): fatal error C1083: Cannot open include file: 'opencv\cv.h': No such file or directory
+         trainerimage.cpp
+     1>c:\users\nadin_000\desktop\courses\machine learning\project\implementation_gender_classification\face_gender_linear classification_final-testing _clean_up\face_gender_classification\trainerimage.h(4): fatal error C1083: Cannot open include file: 'opencv\cv.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\nadin_000\Desktop\Courses\Machine Learning\Project\Implementation_Gender_Classification\Face_Gender_Linear Classification_Final-Testing _clean_up\Face_Gender_Classification\Face_Gender_Classification.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:17.17

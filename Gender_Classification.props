@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <Qt_Static>C:\Qt_static</Qt_Static>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include\tbb\;$(SolutionDir)\include\OpenCV\;$(SolutionDir)\include\Qt\;$(SolutionDir)\include\Boost\</AdditionalIncludeDirectories>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib\TBB;$(SolutionDir)\lib\;$(SolutionDir)\lib\OpenCV;$(SolutionDir)\lib\Qt;$(SolutionDir)\lib\Boost</AdditionalLibraryDirectories>
+      <AdditionalDependencies>tbb_debug.lib;opencv_core245d.lib;opencv_imgproc245d.lib;opencv_highgui245d.lib;opencv_ml245d.lib;opencv_video245d.lib;opencv_legacy245d.lib;opencv_features2d245d.lib;opencv_calib3d245d.lib;opencv_objdetect245d.lib;opencv_flann245d.lib;opencv_contrib245d.lib;opencv_photo245d.lib;opencv_haartraining_engined.lib;boost_thread-vc100-mt-gd-1_47.lib;boost_filesystem-vc100-mt-gd-1_47.lib;boost_program_options-vc100-mt-gd-1_47.lib;libboost_zlib-vc100-mt-gd-1_47.lib;glut32.lib;OpenGL32.lib;GLu32.lib;glew32.lib;qtmaind.lib;QtCored4.lib;QtGuid4.lib;QtMultimediad4.lib;QtXmld4.lib;QtSqld4.lib;QtOpenGLd4.lib;opengl32.lib;glu32.lib;QtNetworkd4.lib;QtScriptd4.lib;Qt3Supportd4.lib;comdlg32.lib;QAxServerd.lib;QtSvgd4.lib;QtHelpd4.lib;QtWebKitd4.lib;QtXmlPatternsd4.lib;QtTestd4.lib;QtDeclaratived4.lib;phonond4.lib;kernel32.lib;user32.lib;shell32.lib;uuid.lib;ole32.lib;advapi32.lib;ws2_32.lib;gdi32.lib;oleaut32.lib;imm32.lib;winmm.lib;winspool.lib;qtmain.lib;QtCore4.lib;QtGui4.lib;QtXml4.lib;QtOpenGL4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="QTDIR" />
+    <BuildMacro Include="Qt_Static">
+      <Value>$(Qt_Static)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

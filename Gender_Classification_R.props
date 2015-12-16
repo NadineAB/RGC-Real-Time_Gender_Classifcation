@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include\;$(SolutionDir)\include\OpenCV\;$(SolutionDir)\include\Qt;$(SolutionDir)\include\Boost\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>tbb.lib;opencv_calib3d245.lib;opencv_objdetect245.lib;opencv_flann245.lib;opencv_contrib245.lib;msvcrt.lib;qgif4.lib;phonon_ds94.lib;opencv_core245.lib;opencv_imgproc245.lib;opencv_highgui245.lib;opencv_ml245.lib;opencv_video245.lib;opencv_legacy245.lib;opencv_features2d245.lib;opencv_photo245.lib;opencv_haartraining_engine.lib;boost_filesystem-vc100-mt-1_47.lib;glut32.lib;OpenGL32.lib;GLu32.lib;glew32.lib;qtmain.lib;QtCore4.lib;QtGui4.lib;QtMultimedia4.lib;QtXml4.lib;QtSql4.lib;QtOpenGL4.lib;opengl32.lib;glu32.lib;QtNetwork4.lib;QtScript4.lib;Qt3Support4.lib;comdlg32.lib;QAxServer.lib;QtSvg4.lib;QtHelp4.lib;QtWebKit4.lib;QtXmlPatterns4.lib;QtTest4.lib;QtDeclarative4.lib;phonon4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib\tbb;$(SolutionDir)\lib\Qt;$(SolutionDir)\lib\openGL;$(SolutionDir)\lib\;$(SolutionDir)\lib\OpenCV;$(SolutionDir)\lib\Boost</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+      <DelayLoadDLLs>tbb.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
