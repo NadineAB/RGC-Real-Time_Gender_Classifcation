@@ -9,5 +9,5 @@ into two classes (male and female). In the literature there are three popular ap
 This project addresses the problem of gender classifcation using frontal facial images as training images, where the goal of this project is to automatically detect faces on images or video, quickly and reliably classify the gender of the detected faces. Our gender classiffer has been trained using two diferent datasets; more details are in the evaluation section. I did this project for Machine Learning course. Please read the Nadine Report of Machine Learning Project.pdf for more information and watch video for the results: https://vimeo.com/90117910 :)
 
 library used in the porject:
-- Boost, OpenCV Qt, and Threading Building Blocks.
+- Boost, OpenCV, Qt, and Threading Building Blocks.
 
