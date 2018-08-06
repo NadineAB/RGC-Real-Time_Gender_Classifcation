@@ -11,3 +11,4 @@ This project addresses the problem of gender classifcation using frontal facial 
 library used in the porject:
 - Boost, OpenCV, Qt, and Threading Building Blocks.
 
+![Screenshot](https://github.com/NadineAB/GenderClassifcationOfHumanFaces/blob/master/Screen%20Shot%202018-08-06%20at%2020.01.17.png)
