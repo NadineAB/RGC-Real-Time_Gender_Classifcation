@@ -7,7 +7,7 @@ namespace cognition
 
 	/*!
 	 * \brief
-	 * Interface for objects that want to receive status change notifications from detectors
+	 * Interface for that want to receive status change notifications from detectors
 	 * 
 	 * Subclass Controller and register the object to a detector. You will then receive updates
 	 * form the detector as they are available.
